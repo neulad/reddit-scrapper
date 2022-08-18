@@ -2,8 +2,8 @@ from praw.models import MoreComments
 import requests
 import praw
 
-reddit = praw.Reddit(client_id='Wur7iJclY-HMXw', client_secret='odD_G7Ew-QEX6nLk_E7soYHBR3g', user_agent='test-app')
-api = "trnsl.1.1.20200208T132702Z.4f9e0c4b9ed0583d.2ffb26e53c8f6dc400ef4fcd06f1675f71433dbe"
+reddit = praw.Reddit(client_id='PUT YOUR CLIENT ID THERE!!!!!!', client_secret='PUT YOUR CLIENT SECRET THERE!!!!', user_agent='PUT YOUR USER AGENT THERE!!!')
+api = "PUT YOU API KEY THERE!!!!!"
 
 comments = reddit.submission(url="https://www.reddit.com/r/AskReddit/comments/esy81b/"
 	                             "what_is_a_one_in_a_million_thing_that_happend_to/").comments
